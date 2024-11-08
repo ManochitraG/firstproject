@@ -28,6 +28,7 @@ public class EmployeeController {
 	
 	@GetMapping(value="/getEmp")
 	public List<Employee> getAllEmps(){
+		System.out.println("Hello");
 		return es.getAllEmps();
 	}
 	
